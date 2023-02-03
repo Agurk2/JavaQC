@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=State
+comment0.text=\n\ Class\ State\ controls\ and\ updates\ the\ state\ of\ the\ qubit\n
+comment1.params=gate
+comment1.target=void\ updateState(double[][])
+comment2.params=matrix
+comment2.target=double[]\ multiplyMatrix(double[][])
+comment2.text=\n\ @param\ matrix.length\ \=\ 2\n\ @returns\ temp\n
+comment3.params=first\ second
+comment3.target=double[][]\ multiplyMatrix(double[][],\ double[][])
+comment3.text=\n\ @param\ first.length\ \=\ 2,\ second.length\ \=\ 2\n\ @returns\ temp\n
+comment4.params=
+comment4.target=double[]\ getState()
+comment4.text=\n\ @returns\ state\n
+numComments=5

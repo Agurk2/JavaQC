@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Circuit
+comment0.text=\n\ The\ circuit\ class\ implements\ all\ the\ other\ classes\ into\ one\ collective\ circuit.\ When\ extended,\ a\ user\ will\ be\ able\ to\n\ simulate\ an\ actual\ quantum\ computer,\ although\ at\ this\ version,\ H\ and\ X\ gates\ are\ only\ available\n\ \n\ Version@1.0.0\n\ Author@Onorregaard\n
+comment1.params=size
+comment1.target=Circuit(int)
+comment1.text=\n\ Main\ constructor\ for\ class\ Circuit.\n\ \n\ Note\ that\ the\ circuit\ functions\ index-vise\ like\ an\ Array.\n\ -\ Cannot\ change\ the\ size\ once\ instansiated\n\ -\ Index\ starts\ at\ 0\ and\ goes\ to\ size-1\n
+comment2.params=qubit
+comment2.target=void\ x(int)
+comment2.text=\n\ Add\ a\ NOT\ gate\n
+comment3.params=qubit
+comment3.target=void\ h(int)
+comment3.text=\n\ Add\ a\ hadamard\ gate\n
+comment4.params=control\ target
+comment4.target=void\ cx(int,\ int)
+comment4.text=\n\ Add\ a\ cx\ gate\n\ \n\ Note\:\ this\ is\ not\ functional\n
+comment5.params=qubit
+comment5.target=void\ measure(int)
+comment5.text=\n\ Add\ a\ measurement\ gate\n
+comment6.params=n
+comment6.target=java.util.ArrayList\ getBitCombinations(int)
+comment6.text=\n\ Generates\ the\ possible\ bit\ combinations\ with\ n\ size\n\ @Returns\ temp\ which\ stores\ the\ bit\ combinations\n
+comment7.params=shots
+comment7.target=void\ execute(double)
+numComments=8

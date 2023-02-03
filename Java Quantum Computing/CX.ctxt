@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=CX
+comment0.text=\n\ This\ class\ was\ never\ implemented\ correctly\ due\ to\ the\n\ special\ nature\ of\ CNOTs\n
+comment1.params=control\ target
+comment1.target=CX(int,\ int)
+comment2.params=
+comment2.target=int[]\ returnControlTarget()
+numComments=3
